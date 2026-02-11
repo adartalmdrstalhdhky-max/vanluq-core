@@ -1,6 +1,5 @@
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 
-// Contract for network info to ensure abstraction (Clean Architecture)
 abstract class NetworkInfo {
   Future<bool> get isConnected;
 }
